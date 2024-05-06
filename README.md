@@ -2,13 +2,14 @@ Candidate Job Application
 
 Summary
 
-This is react based candidate job application  is  designed to help users specifically Skilled Professionals to search and apply for jobs effectively.
+Created a candidate application platform that allows users to view job listings, filter jobs based on various criteria, and implement infinite scroll for a seamless browsing experience
 
 It utilizes Redux for state management and Material UI for  user interface
 
 It provides functionality such as filtering jobs based on various criteria such as Roles, Number Of Employees, Experience, Location, Remote, Min Base Pay Salary, Search Company Name.
 
 I have also add  infinite scrolling for job listings.
+
 
 Features
 
