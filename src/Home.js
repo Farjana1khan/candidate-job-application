@@ -411,30 +411,33 @@ const Home = () => {
                           textTransform: "capitalize",
                           backgroundColor: "#13ebc3",
                           width: "100%",
+                          color:"#000",
+                          fontWeight:"bold",
                           borderRadius: "10px"
                         }}
                       >
                         <BoltIcon
                           style={{
                             backgroundColor: "#13ebc3",
-                            fontSize: "2rem"
+                            fontSize: "2rem",
+                            color:"orange"
                           }}
                         />
                         Easy Apply
                       </Button>
                       <Button
                         variant="contained"
-                        color="primary"
                         style={{
-                          backgroundColor: "#3e13eb",
+                          backgroundColor: "#5D3FD3",
                           width: "100%",
                           borderRadius: "10px",
                           marginTop: "15px",
-                          textTransform: "capitalize"
+                          textTransform: "capitalize",
+                         
                         }}
                       >
-                        <AccountCircleIcon style={{ fontSize: "2rem" }} />
-                        <AccountCircleIcon style={{ fontSize: "2rem" }} />
+                        <AccountCircleIcon style={{ fontSize: "2rem", marginRight:"5px" }} />
+                        <AccountCircleIcon style={{ fontSize: "2rem", marginRight:"10px" }} />
                         Unlock referral asks
                       </Button>
                     </Box>
